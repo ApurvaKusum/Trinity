@@ -1,0 +1,160 @@
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  .footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+  /* Main code Css */
+  .inlineblock{
+      display: inline-block;
+  }
+.default-width{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.site-banner-img{
+   background: url('../../assets/img/Banner_Image.png');
+   height: 800px;
+   width: 100%;
+   background-size:cover;
+}
+.welcome-kit{
+    background: url('../../assets/img/style.png');
+    height: 485px;
+    width: 22%;
+    background-size: cover;
+}
+.left-content-text{
+    color: #ffffff;
+}
+.left-content-text p{
+    color: #fff;
+}
+.btn-explore{
+    display: inline-block;
+    color: #ffffff !important;
+}
+/* text center property */
+.text-center{
+    width: 40%;
+    align-items: center;
+    margin-top: 5%;
+}
+.text-set{
+    display: flex;
+    justify-content: center;
+}
+.shadow{
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+.services-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px;
+}
+.welcome-US{
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    margin-top: 5%;
+}
+p{
+    color: #787878 ;
+    
+}
+.Welcome{
+    display: flex;
+    margin-top:50px;
+}
+.welcome-text-kit{
+    margin-top: 5%;
+    position: absolute;
+    right: 0%;
+    padding-right: 3%;
+    
+}
+.btn-welcome{
+    
+    border: 1px solid blue;
+    margin-top: 10px;
+    padding: 12px 45px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+.home-icon{
+    position: relative;
+    font-size: 34px;
+    color: blue;
+}
+.btn-contactUs{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 17px;
+    color: #000;
+
+}
+nav a:hover{
+    border-bottom: 3px solid blue;
+    text-decoration: none;
+    padding-bottom: 3px !important;
+}
+.footer{
+    background-color: rgb(235,235,248);
+    padding-top: 91px;
+}
+.contactUs{
+    padding: 20px;
+    justify-content: center;
+    top: 72px;
+    width: 60%;
+    position: relative;
+    left: 23%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(51,54,151);
+    
+}
+.contactUs p{
+    color: #fff;
+}
+.footer li{
+    list-style: none;
+}
+.emailInput{
+    border-radius: 25px;
+    padding: 11px 120px 11px 22px;
+    border: none;
+    font-size: 12px;
+}
+.email-btn{
+    border-radius: 15px;
+    color: #fff;
+    padding: 7px 27px;
+    top: -36px;
+    position: relative;
+    left: 194px;
+    font-size: 12px;
+    background-color: rgb(51,54,151);
+    border: none;
+}
+.pixbey{
+    top:-80px;
+}
+.pixbey .fa{
+    margin-right: 10px;
+    border-radius: 1px solid #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.contactUs-footer{
+    top: -50px;
+}
